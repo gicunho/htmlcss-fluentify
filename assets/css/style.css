@@ -105,10 +105,7 @@ h1{
     padding: 20px; 
 }
 
-.login:hover{
-    background-color: white;
-    color: black;
-}
+
 
 .login:hover a{
     color: black;
@@ -118,6 +115,10 @@ h1{
     background-color: #46a472;
 }
 
+.login:hover{
+    background-color: white;
+    color: black;
+}
 /* Main */
 
 .presentation{
@@ -189,6 +190,9 @@ select{
     border: none;
     background-color: transparent;
     font-family: 'Roboto', sans-serif;
+    color: #808080;
+    font-size: 18px;
+    border-bottom-style:solid;
 }
 
 .footer_buttons{
@@ -201,4 +205,10 @@ select{
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
+}
+
+.trattino{
+    height: 2px;
+    width: 20%;
+    background-color: black;
 }
