@@ -32,15 +32,6 @@ p{
     background-color: #0c325a;
 }
 
-.dbg main{
-    height: 1000px;
-    background-color: yellow;
-}
-
-.dbg footer{
-    height: 300px;
-    background-color: red;
-}
 
 /* Header */
 header{
@@ -102,9 +93,6 @@ nav > div > ul > li > a, .button > a {
     border: 1px solid white;
 }
 
-.jumbotron{
-}
-
 h1{
     color: white;
     font-size: 50px;
@@ -117,11 +105,100 @@ h1{
     padding: 20px; 
 }
 
+.login:hover{
+    background-color: white;
+    color: black;
+}
+
+.login:hover a{
+    color: black;
+}
+
+.button:hover{
+    background-color: #46a472;
+}
+
 /* Main */
 
 .presentation{
     background-color: #d3d3d3;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
 
+.colonna{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.colonna:nth-child(2){
+    margin: 0 5%;
+}
+
+.colonna > img{
+    height: 200px;
+    margin: 50px 0;
+}
+
+.colonna > h2{
+    color: #7cbb02;
+}
+
+.main_content2{
+    margin: 40px auto;
+}
+
+.main_content2 div{
+    width: 50%;
+    float: left;
+}
+
+#test_placement{
+    width: 30%;
+    padding-left: 70px;
+}
+
+/* Footer */
+
+.dbg footer{
+    height: 150px;
+    line-height: 150px;
+    background-color: #d3d3d3;
+}
+
+.footer_title{
+    width: 60%;
+    float: left;
+}
+
+.selection, .footer_buttons{
+    width: 20%;
+    float: left;
+}
+
+.selection{
+    text-align: right;
+    color: #808080;
+}
+
+select{
+    padding-right: 50px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_buttons{
+    position: relative;
+    text-align: center;
+}
+
+#help{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
